@@ -10,7 +10,7 @@ extension FailableDeleteFeedStoreSpecs where Self: XCTestCase {
     func assertThatDeleteCachedFeedDeliversErrorOnDeletionError(on sut: FeedStore, file: StaticString = #file, line: UInt = #line) {
         let deletionError = delete(from: sut)
         
-        XCTAssertNotNil(deletionError, "Expected cache deletion to fail")
+        XCTAssertNotNil(deletionError, "Expected cache deletion to fail", file: file, line: line)
     }
     
     func assertThatDeleteCachedFeedHasNoSideEffectsOnDeletionError(on sut: FeedStore, file: StaticString = #file, line: UInt = #line) {
