@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D5881F72670656900987BDE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5881F62670656900987BDE /* FeedViewController.swift */; };
 		3DDF6F60266F2DA800DD085A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF6F5F266F2DA800DD085A /* AppDelegate.swift */; };
 		3DDF6F62266F2DA800DD085A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF6F61266F2DA800DD085A /* SceneDelegate.swift */; };
 		3DDF6F67266F2DA800DD085A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDF6F65266F2DA800DD085A /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D5881F62670656900987BDE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3DDF6F5C266F2DA800DD085A /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDF6F5F266F2DA800DD085A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DDF6F61266F2DA800DD085A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,7 +41,6 @@
 			isa = PBXGroup;
 			children = (
 				3DDF6F5E266F2DA800DD085A /* Prototype */,
-				3DDF6F5D266F2DA800DD085A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +50,7 @@
 				3DDF6F5C266F2DA800DD085A /* Prototype.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		3DDF6F5E266F2DA800DD085A /* Prototype */ = {
@@ -56,10 +58,12 @@
 			children = (
 				3DDF6F5F266F2DA800DD085A /* AppDelegate.swift */,
 				3DDF6F61266F2DA800DD085A /* SceneDelegate.swift */,
+				3D5881F62670656900987BDE /* FeedViewController.swift */,
 				3DDF6F65266F2DA800DD085A /* Main.storyboard */,
 				3DDF6F68266F2DB100DD085A /* Assets.xcassets */,
 				3DDF6F6A266F2DB100DD085A /* LaunchScreen.storyboard */,
 				3DDF6F6D266F2DB100DD085A /* Info.plist */,
+				3DDF6F5D266F2DA800DD085A /* Products */,
 			);
 			path = Prototype;
 			sourceTree = "<group>";
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DDF6F60266F2DA800DD085A /* AppDelegate.swift in Sources */,
+				3D5881F72670656900987BDE /* FeedViewController.swift in Sources */,
 				3DDF6F62266F2DA800DD085A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
