@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3D5881F72670656900987BDE /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5881F62670656900987BDE /* FeedViewController.swift */; };
 		3D5881F92670674C00987BDE /* FeedImageViewModel+PrototypeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5881F82670674C00987BDE /* FeedImageViewModel+PrototypeData.swift */; };
+		3D5881FB267068FC00987BDE /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5881FA267068FC00987BDE /* FeedImageCell.swift */; };
 		3DDF6F60266F2DA800DD085A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF6F5F266F2DA800DD085A /* AppDelegate.swift */; };
 		3DDF6F62266F2DA800DD085A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF6F61266F2DA800DD085A /* SceneDelegate.swift */; };
 		3DDF6F67266F2DA800DD085A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDF6F65266F2DA800DD085A /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		3D5881F62670656900987BDE /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		3D5881F82670674C00987BDE /* FeedImageViewModel+PrototypeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FeedImageViewModel+PrototypeData.swift"; sourceTree = "<group>"; };
+		3D5881FA267068FC00987BDE /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 		3DDF6F5C266F2DA800DD085A /* Prototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DDF6F5F266F2DA800DD085A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DDF6F61266F2DA800DD085A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3DDF6F5F266F2DA800DD085A /* AppDelegate.swift */,
 				3DDF6F61266F2DA800DD085A /* SceneDelegate.swift */,
 				3D5881F62670656900987BDE /* FeedViewController.swift */,
+				3D5881FA267068FC00987BDE /* FeedImageCell.swift */,
 				3D5881F82670674C00987BDE /* FeedImageViewModel+PrototypeData.swift */,
 				3DDF6F65266F2DA800DD085A /* Main.storyboard */,
 				3DDF6F68266F2DB100DD085A /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 				3D5881F72670656900987BDE /* FeedViewController.swift in Sources */,
 				3DDF6F62266F2DA800DD085A /* SceneDelegate.swift in Sources */,
 				3D5881F92670674C00987BDE /* FeedImageViewModel+PrototypeData.swift in Sources */,
+				3D5881FB267068FC00987BDE /* FeedImageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
