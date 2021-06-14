@@ -51,6 +51,7 @@
 		3DBE08E226731446008B3467 /* FeedImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBE08E126731446008B3467 /* FeedImageCell.swift */; };
 		3DD82A782623E34D00835310 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD82A772623E34D00835310 /* HTTPClient.swift */; };
 		3DD82A7A2623E38B00835310 /* FeedItemsMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD82A792623E38B00835310 /* FeedItemsMapper.swift */; };
+		3DEC07D12676F1BD00E078B1 /* UIView+Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC07D02676F1BD00E078B1 /* UIView+Shimmering.swift */; };
 		3DFEF8A82659F2FC00028FA1 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15DE1B26296A6300F9CA95 /* XCTestCase+MemoryLeakTracking.swift */; };
 		3DFEF8A92659F91700028FA1 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B9C61264E2F1B00FC47C7 /* FeedCacheTestHelpers.swift */; };
 		3DFEF8AA265A188B00028FA1 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B9C63264E2F7000FC47C7 /* SharedTestHelpers.swift */; };
@@ -157,6 +158,7 @@
 		3DBE08E126731446008B3467 /* FeedImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageCell.swift; sourceTree = "<group>"; };
 		3DD82A772623E34D00835310 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		3DD82A792623E38B00835310 /* FeedItemsMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemsMapper.swift; sourceTree = "<group>"; };
+		3DEC07D02676F1BD00E078B1 /* UIView+Shimmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmering.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +231,7 @@
 				3D08D4D02670CF64008D98D5 /* Info.plist */,
 				3D85EF1C26722A6F00764E88 /* FeedViewController.swift */,
 				3DBE08E126731446008B3467 /* FeedImageCell.swift */,
+				3DEC07D02676F1BD00E078B1 /* UIView+Shimmering.swift */,
 			);
 			path = EssentialFeedSecondiOS;
 			sourceTree = "<group>";
@@ -644,6 +647,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DEC07D12676F1BD00E078B1 /* UIView+Shimmering.swift in Sources */,
 				3D85EF1D26722A6F00764E88 /* FeedViewController.swift in Sources */,
 				3DBE08E226731446008B3467 /* FeedImageCell.swift in Sources */,
 			);
