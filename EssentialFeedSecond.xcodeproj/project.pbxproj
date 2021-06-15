@@ -245,8 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				3D08D4D02670CF64008D98D5 /* Info.plist */,
-				3DD66E552678695000D7EDE5 /* Controllers */,
-				3DD66E562678695E00D7EDE5 /* Views */,
+				3DD66E6026786B8500D7EDE5 /* FeedUI */,
 			);
 			path = EssentialFeedSecondiOS;
 			sourceTree = "<group>";
@@ -256,7 +255,7 @@
 			children = (
 				3D08D4DC2670CF64008D98D5 /* Info.plist */,
 				3DD66E482678616F00D7EDE5 /* Helpers */,
-				3DD66E542678693300D7EDE5 /* Controllers */,
+				3DD66E6126786B9400D7EDE5 /* FeedUI */,
 			);
 			path = EssentialFeedSecondiOSTests;
 			sourceTree = "<group>";
@@ -473,6 +472,23 @@
 				3DD66E5E26786AFA00D7EDE5 /* FeedViewControllerTests+Assertions.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3DD66E6026786B8500D7EDE5 /* FeedUI */ = {
+			isa = PBXGroup;
+			children = (
+				3DD66E552678695000D7EDE5 /* Controllers */,
+				3DD66E562678695E00D7EDE5 /* Views */,
+			);
+			path = FeedUI;
+			sourceTree = "<group>";
+		};
+		3DD66E6126786B9400D7EDE5 /* FeedUI */ = {
+			isa = PBXGroup;
+			children = (
+				3DD66E542678693300D7EDE5 /* Controllers */,
+			);
+			path = FeedUI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
