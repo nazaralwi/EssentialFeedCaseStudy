@@ -3,7 +3,6 @@
 //  Copyright © 2021 Nazar Alwi. All rights reserved.
 //
 
-import Foundation
 import EssentialFeedSecond
 
 final class FeedViewModel {
