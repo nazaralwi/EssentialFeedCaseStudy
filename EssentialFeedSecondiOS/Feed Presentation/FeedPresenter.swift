@@ -3,6 +3,7 @@
 //  Copyright © 2021 Nazar Alwi. All rights reserved.
 //
 
+import Foundation
 import EssentialFeedSecond
 
 protocol FeedLoadingView: class {
@@ -23,7 +24,10 @@ final class FeedPresenter {
     }
     
     static var title: String {
-        return "My Feed"
+        return NSLocalizedString("FEED_VIEW_TITLE",
+             tableName: "Feed",
+             bundle: Bundle(for: FeedPresenter.self),
+             comment: "Title for the feed view")
     }
     
     func didStartLoadingFeed() {
