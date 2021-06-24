@@ -7,7 +7,7 @@ import Foundation
 import EssentialFeedSecond
 import EssentialFeedSecondiOS
 
-extension FeedViewControllerTests {
+extension FeedUIIntegrationTests {
     class LoaderSpy: FeedLoader, FeedImageDataLoader {
         // MARK: - FeedLoader
         
