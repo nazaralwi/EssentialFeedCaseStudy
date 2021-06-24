@@ -277,7 +277,7 @@
 				3D08D4D02670CF64008D98D5 /* Info.plist */,
 				3DD66E6226786BF400D7EDE5 /* Feed Image Loader */,
 				3D2A5DC7267F268200FFBDE7 /* Feed Presentation */,
-				3DD66E6026786B8500D7EDE5 /* FeedUI */,
+				3DD66E6026786B8500D7EDE5 /* Feed UI */,
 			);
 			path = EssentialFeedSecondiOS;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				3D08D4DC2670CF64008D98D5 /* Info.plist */,
-				3DD66E6126786B9400D7EDE5 /* FeedUI */,
+				3DD66E6126786B9400D7EDE5 /* Feed UI */,
 			);
 			path = EssentialFeedSecondiOSTests;
 			sourceTree = "<group>";
@@ -516,23 +516,23 @@
 			path = Helpers;
 			sourceTree = "<group>";
 		};
-		3DD66E6026786B8500D7EDE5 /* FeedUI */ = {
+		3DD66E6026786B8500D7EDE5 /* Feed UI */ = {
 			isa = PBXGroup;
 			children = (
 				3D2DE58C2679B08200351F26 /* Composers */,
 				3DD66E552678695000D7EDE5 /* Controllers */,
 				3DD66E562678695E00D7EDE5 /* Views */,
 			);
-			path = FeedUI;
+			path = "Feed UI";
 			sourceTree = "<group>";
 		};
-		3DD66E6126786B9400D7EDE5 /* FeedUI */ = {
+		3DD66E6126786B9400D7EDE5 /* Feed UI */ = {
 			isa = PBXGroup;
 			children = (
 				3DD66E57267869E800D7EDE5 /* Helpers */,
 				3D08D4DA2670CF64008D98D5 /* FeedUIIntegrationTests.swift */,
 			);
-			path = FeedUI;
+			path = "Feed UI";
 			sourceTree = "<group>";
 		};
 		3DD66E6226786BF400D7EDE5 /* Feed Image Loader */ = {
