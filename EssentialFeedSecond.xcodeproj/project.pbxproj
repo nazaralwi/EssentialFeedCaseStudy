@@ -75,6 +75,7 @@
 		3DDEA2B426832891000D4928 /* UITableView+Dequeueing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA2B326832891000D4928 /* UITableView+Dequeueing.swift */; };
 		3DDEA2B6268329E9000D4928 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDEA2B5268329E9000D4928 /* UIImageView+Animations.swift */; };
 		3DE0D8592685C770002BA58C /* MainQueueDispatchDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D8582685C770002BA58C /* MainQueueDispatchDecorator.swift */; };
+		3DE0D85B2685C84D002BA58C /* WeakRefVirtualProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE0D85A2685C84D002BA58C /* WeakRefVirtualProxy.swift */; };
 		3DEC07D12676F1BD00E078B1 /* UIView+Shimmering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC07D02676F1BD00E078B1 /* UIView+Shimmering.swift */; };
 		3DFEF8A82659F2FC00028FA1 /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D15DE1B26296A6300F9CA95 /* XCTestCase+MemoryLeakTracking.swift */; };
 		3DFEF8A92659F91700028FA1 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7B9C61264E2F1B00FC47C7 /* FeedCacheTestHelpers.swift */; };
@@ -208,6 +209,7 @@
 		3DDEA2B326832891000D4928 /* UITableView+Dequeueing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeueing.swift"; sourceTree = "<group>"; };
 		3DDEA2B5268329E9000D4928 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
 		3DE0D8582685C770002BA58C /* MainQueueDispatchDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainQueueDispatchDecorator.swift; sourceTree = "<group>"; };
+		3DE0D85A2685C84D002BA58C /* WeakRefVirtualProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakRefVirtualProxy.swift; sourceTree = "<group>"; };
 		3DEC07D02676F1BD00E078B1 /* UIView+Shimmering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Shimmering.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -402,6 +404,7 @@
 			children = (
 				3D2DE58D2679B09300351F26 /* FeedUIComposer.swift */,
 				3DE0D8582685C770002BA58C /* MainQueueDispatchDecorator.swift */,
+				3DE0D85A2685C84D002BA58C /* WeakRefVirtualProxy.swift */,
 			);
 			path = Composers;
 			sourceTree = "<group>";
@@ -805,6 +808,7 @@
 				3D5FE5992682270800A1ADF5 /* FeedLoadingViewModel.swift in Sources */,
 				3DEC07D12676F1BD00E078B1 /* UIView+Shimmering.swift in Sources */,
 				3D5FE59726821C3200A1ADF5 /* FeedImagePresenter.swift in Sources */,
+				3DE0D85B2685C84D002BA58C /* WeakRefVirtualProxy.swift in Sources */,
 				3DDEA2B6268329E9000D4928 /* UIImageView+Animations.swift in Sources */,
 				3DE0D8592685C770002BA58C /* MainQueueDispatchDecorator.swift in Sources */,
 				3D85EF1D26722A6F00764E88 /* FeedViewController.swift in Sources */,
