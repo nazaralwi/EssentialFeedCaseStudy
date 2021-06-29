@@ -6,7 +6,7 @@
 import Foundation
 import EssentialFeedSecond
 
-protocol FeedLoadingView: class {
+protocol FeedLoadingView: AnyObject {
     func display(_ viewModel: FeedLoadingViewModel)
 }
 
