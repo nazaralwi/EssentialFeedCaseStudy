@@ -4,7 +4,7 @@
 //
 
 import XCTest
-@testable import EssentialFeedSecondiOS
+import EssentialFeedSecond
 
 final class FeedLocalizationTests: XCTestCase {
     func test_localizedStrings_haveKeysAndValuesForAllSupportedLocalization() {
