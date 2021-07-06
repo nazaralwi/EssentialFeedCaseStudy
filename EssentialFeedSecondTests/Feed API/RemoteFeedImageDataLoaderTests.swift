@@ -65,7 +65,7 @@ class RemoteFeedImageDataLoaderTests: XCTestCase {
         })
     }
     
-    func test_loadImageDataFromURL_deliversInvalidDataErrorOnNon20HTTPResponse() {
+    func test_loadImageDataFromURL_deliversInvalidDataErrorOnNon200HTTPResponse() {
         let (sut, client) = makeSUT()
         
         let samples = [199, 201, 300, 400, 500]
@@ -77,7 +77,7 @@ class RemoteFeedImageDataLoaderTests: XCTestCase {
         }
     }
     
-    func test_loadImageDataFromURL_deliversInvalidDataErrorOn20HTTPResponseWithEmptyData() {
+    func test_loadImageDataFromURL_deliversInvalidDataErrorOn200HTTPResponseWithEmptyData() {
         let (sut, client) = makeSUT()
         
         expect(sut, toCompleteWith: failure(.invalidData), when: {
