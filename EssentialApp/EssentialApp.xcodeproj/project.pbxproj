@@ -13,7 +13,26 @@
 		3D215938269D40030064BC86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D215936269D40030064BC86 /* Main.storyboard */; };
 		3D21593A269D40070064BC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D215939269D40070064BC86 /* Assets.xcassets */; };
 		3D21593D269D40070064BC86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D21593B269D40070064BC86 /* LaunchScreen.storyboard */; };
+		3D215947269D46730064BC86 /* EssentialFeedSecond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D215945269D46730064BC86 /* EssentialFeedSecond.framework */; };
+		3D215948269D46730064BC86 /* EssentialFeedSecond.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D215945269D46730064BC86 /* EssentialFeedSecond.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3D215949269D46730064BC86 /* EssentialFeedSecondiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D215946269D46730064BC86 /* EssentialFeedSecondiOS.framework */; };
+		3D21594A269D46730064BC86 /* EssentialFeedSecondiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D215946269D46730064BC86 /* EssentialFeedSecondiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3D21594B269D46730064BC86 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D21594A269D46730064BC86 /* EssentialFeedSecondiOS.framework in Embed Frameworks */,
+				3D215948269D46730064BC86 /* EssentialFeedSecond.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3D21592D269D40030064BC86 /* EssentialApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EssentialApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,6 +43,8 @@
 		3D215939269D40070064BC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D21593C269D40070064BC86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D21593E269D40070064BC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D215945269D46730064BC86 /* EssentialFeedSecond.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeedSecond.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D215946269D46730064BC86 /* EssentialFeedSecondiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeedSecondiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +52,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D215949269D46730064BC86 /* EssentialFeedSecondiOS.framework in Frameworks */,
+				3D215947269D46730064BC86 /* EssentialFeedSecond.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +65,7 @@
 			children = (
 				3D21592F269D40030064BC86 /* EssentialApp */,
 				3D21592E269D40030064BC86 /* Products */,
+				3D215944269D46720064BC86 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +91,15 @@
 			path = EssentialApp;
 			sourceTree = "<group>";
 		};
+		3D215944269D46720064BC86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D215945269D46730064BC86 /* EssentialFeedSecond.framework */,
+				3D215946269D46730064BC86 /* EssentialFeedSecondiOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,6 +110,7 @@
 				3D215929269D40030064BC86 /* Sources */,
 				3D21592A269D40030064BC86 /* Frameworks */,
 				3D21592B269D40030064BC86 /* Resources */,
+				3D21594B269D46730064BC86 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
