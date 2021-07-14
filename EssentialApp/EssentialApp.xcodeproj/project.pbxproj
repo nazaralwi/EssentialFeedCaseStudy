@@ -18,6 +18,7 @@
 		3D215949269D46730064BC86 /* EssentialFeedSecondiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D215946269D46730064BC86 /* EssentialFeedSecondiOS.framework */; };
 		3D21594A269D46730064BC86 /* EssentialFeedSecondiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D215946269D46730064BC86 /* EssentialFeedSecondiOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3D215953269D4D000064BC86 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D215952269D4D000064BC86 /* FeedLoaderWithFallbackCompositeTests.swift */; };
+		3D8A444B269E7F34003907DC /* FeedLoaderWithFallbackComposite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8A444A269E7F34003907DC /* FeedLoaderWithFallbackComposite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		3D215950269D4D000064BC86 /* EssentialAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EssentialAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D215952269D4D000064BC86 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		3D215954269D4D000064BC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8A444A269E7F34003907DC /* FeedLoaderWithFallbackComposite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackComposite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 			children = (
 				3D215930269D40030064BC86 /* AppDelegate.swift */,
 				3D215932269D40030064BC86 /* SceneDelegate.swift */,
+				3D8A444A269E7F34003907DC /* FeedLoaderWithFallbackComposite.swift */,
 				3D215934269D40030064BC86 /* ViewController.swift */,
 				3D215936269D40030064BC86 /* Main.storyboard */,
 				3D215939269D40070064BC86 /* Assets.xcassets */,
@@ -235,6 +238,7 @@
 			files = (
 				3D215935269D40030064BC86 /* ViewController.swift in Sources */,
 				3D215931269D40030064BC86 /* AppDelegate.swift in Sources */,
+				3D8A444B269E7F34003907DC /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				3D215933269D40030064BC86 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
