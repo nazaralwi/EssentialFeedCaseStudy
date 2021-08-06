@@ -144,6 +144,7 @@ Location</string>
                                 <connections>
                                     <outlet property="descriptionLabel" destination="0It-et-fwz" id="3Cl-01-bY5"/>
                                     <outlet property="feedImageContainer" destination="1ot-Fh-4rB" id="LQc-hD-0vT"/>
+                                    <outlet property="feedImageRetryButton" destination="wx7-DA-Jdw" id="swA-Sb-BPK"/>
                                     <outlet property="feedImageView" destination="yPH-vo-pT5" id="uch-RP-iX4"/>
                                     <outlet property="locationContainer" destination="CK1-lp-yr8" id="2ab-uI-v4j"/>
                                     <outlet property="locationLabel" destination="ZhN-c8-sL1" id="mOP-hh-1zH"/>
