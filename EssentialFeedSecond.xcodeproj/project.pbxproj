@@ -368,6 +368,7 @@
 				3D6A88BE26C26ABF00B373AD /* Image Comments Feature */,
 				3D26A1052640EE5C008C4FAF /* Feed Cache */,
 				3D109838261B10880072A7BA /* Feed Feature */,
+				3D6A88C626C26D6400B373AD /* Image Comments API */,
 				3D57F376261D39040063FAEE /* Feed API */,
 				3D9BDDDB268D6C60007C5D6A /* Feed Presentation */,
 			);
@@ -382,6 +383,7 @@
 				3D6A88C326C26C7300B373AD /* Shared API */,
 				3D15DE1A26296A4800F9CA95 /* Helpers */,
 				3D0494F526390262004353B4 /* Feed Cache */,
+				3D6A88C726C26D8800B373AD /* Image Comments API */,
 				3D294C3B26245489004D7477 /* Feed API */,
 				3DE2E6B2268C04AF0051B21D /* Feed Presentation */,
 			);
@@ -455,7 +457,6 @@
 			isa = PBXGroup;
 			children = (
 				3D225717261C01F100E42C07 /* LoadFeedFromRemoteUseCaseTests.swift */,
-				3D6A88B526C239B600B373AD /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
 				3DB69A37268F17A100B125AA /* LoadFeedImageDataFromRemoteUseCaseTests.swift */,
 			);
 			path = "Feed API";
@@ -490,8 +491,6 @@
 				3D57F377261D392E0063FAEE /* RemoteFeedLoader.swift */,
 				3DD82A792623E38B00835310 /* FeedItemsMapper.swift */,
 				3D569C3126424B29000716A3 /* RemoteFeedItem.swift */,
-				3D6A88B726C23BC000B373AD /* RemoteImageCommentsLoader.swift */,
-				3D6A88B926C23EB700B373AD /* ImageCommentsMapper.swift */,
 				3D1EEB4026953FF3008CF405 /* RemoteFeedImageDataLoader.swift */,
 			);
 			path = "Feed API";
@@ -565,6 +564,23 @@
 				3D1EEB3E26953B2F008CF405 /* HTTPClientSpy.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3D6A88C626C26D6400B373AD /* Image Comments API */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A88B726C23BC000B373AD /* RemoteImageCommentsLoader.swift */,
+				3D6A88B926C23EB700B373AD /* ImageCommentsMapper.swift */,
+			);
+			path = "Image Comments API";
+			sourceTree = "<group>";
+		};
+		3D6A88C726C26D8800B373AD /* Image Comments API */ = {
+			isa = PBXGroup;
+			children = (
+				3D6A88B526C239B600B373AD /* LoadImageCommentsFromRemoteUseCaseTests.swift */,
+			);
+			path = "Image Comments API";
 			sourceTree = "<group>";
 		};
 		3D85EF152671DF1100764E88 /* Frameworks */ = {
