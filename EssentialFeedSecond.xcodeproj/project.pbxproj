@@ -18,7 +18,6 @@
 		3D18EDD9268AECFE0017A922 /* UIRefreshControl+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D18EDD8268AECFE0017A922 /* UIRefreshControl+Helpers.swift */; };
 		3D1AFD9A26A18FD60026AEB1 /* FeedCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1AFD9926A18FD60026AEB1 /* FeedCache.swift */; };
 		3D1C365B262693900056F403 /* URLSessionHTTPClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1C365A262693900056F403 /* URLSessionHTTPClientTests.swift */; };
-		3D1EEB3F26953B2F008CF405 /* HTTPClientSpy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EEB3E26953B2F008CF405 /* HTTPClientSpy.swift */; };
 		3D1EEB4126953FF3008CF405 /* RemoteFeedImageDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EEB4026953FF3008CF405 /* RemoteFeedImageDataLoader.swift */; };
 		3D1EEB4426955377008CF405 /* HTTPURLResponse+StatusCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EEB4326955377008CF405 /* HTTPURLResponse+StatusCode.swift */; };
 		3D1EEB4726955443008CF405 /* URLProtocolStub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1EEB4626955443008CF405 /* URLProtocolStub.swift */; };
@@ -165,7 +164,6 @@
 		3D18EDD8268AECFE0017A922 /* UIRefreshControl+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Helpers.swift"; sourceTree = "<group>"; };
 		3D1AFD9926A18FD60026AEB1 /* FeedCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCache.swift; sourceTree = "<group>"; };
 		3D1C365A262693900056F403 /* URLSessionHTTPClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionHTTPClientTests.swift; sourceTree = "<group>"; };
-		3D1EEB3E26953B2F008CF405 /* HTTPClientSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClientSpy.swift; sourceTree = "<group>"; };
 		3D1EEB4026953FF3008CF405 /* RemoteFeedImageDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedImageDataLoader.swift; sourceTree = "<group>"; };
 		3D1EEB4326955377008CF405 /* HTTPURLResponse+StatusCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+StatusCode.swift"; sourceTree = "<group>"; };
 		3D1EEB4626955443008CF405 /* URLProtocolStub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLProtocolStub.swift; sourceTree = "<group>"; };
@@ -374,7 +372,6 @@
 			children = (
 				3D10982A261B060A0072A7BA /* Info.plist */,
 				3D6A88C426C26C7B00B373AD /* Shared API Infra */,
-				3D6A88C326C26C7300B373AD /* Shared API */,
 				3D15DE1A26296A4800F9CA95 /* Helpers */,
 				3D0494F526390262004353B4 /* Feed Cache */,
 				3D6A88C726C26D8800B373AD /* Image Comments API */,
@@ -533,14 +530,6 @@
 			path = "Shared API Infra";
 			sourceTree = "<group>";
 		};
-		3D6A88C326C26C7300B373AD /* Shared API */ = {
-			isa = PBXGroup;
-			children = (
-				3D6A88C526C26CA400B373AD /* Helpers */,
-			);
-			path = "Shared API";
-			sourceTree = "<group>";
-		};
 		3D6A88C426C26C7B00B373AD /* Shared API Infra */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,14 +537,6 @@
 				3D1C365A262693900056F403 /* URLSessionHTTPClientTests.swift */,
 			);
 			path = "Shared API Infra";
-			sourceTree = "<group>";
-		};
-		3D6A88C526C26CA400B373AD /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				3D1EEB3E26953B2F008CF405 /* HTTPClientSpy.swift */,
-			);
-			path = Helpers;
 			sourceTree = "<group>";
 		};
 		3D6A88C626C26D6400B373AD /* Image Comments API */ = {
@@ -982,7 +963,6 @@
 				3D9BDDE7268D7D13007C5D6A /* FeedLocalizationTests.swift in Sources */,
 				3D8DB33626567378006CAD4A /* XCTestCase+FailableInsertFeedStoreSpecs.swift in Sources */,
 				3D0FA3812696A1A700B6F4C7 /* LoadFeedImageDataFromCacheUseCaseTests.swift in Sources */,
-				3D1EEB3F26953B2F008CF405 /* HTTPClientSpy.swift in Sources */,
 				3D6A88B626C239B600B373AD /* ImageCommentsMapperTests.swift in Sources */,
 				3D1C365B262693900056F403 /* URLSessionHTTPClientTests.swift in Sources */,
 				3DB42B2C264388A1006A531C /* FeedStoreSpy.swift in Sources */,
