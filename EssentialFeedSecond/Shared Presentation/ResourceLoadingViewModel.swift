@@ -6,6 +6,6 @@
 //  Copyright © 2021 Nazar Alwi. All rights reserved.
 //
 
-public struct FeedLoadingViewModel {
+public struct ResourceLoadingViewModel {
     public let isLoading: Bool
 }
