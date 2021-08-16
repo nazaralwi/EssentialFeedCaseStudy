@@ -33,7 +33,7 @@ final class LoadResourcePresentationAdapter<Resource, View: ResourceView> {
                         self?.presenter?.didFinishLoading(with: error)
                     }
                 }, receiveValue: { [weak self] resource in
-                    self?.presenter?.didFinishLoadingResource(with: resource)
+                    self?.presenter?.didFinishLoading(with: resource)
                 })
     }
 }

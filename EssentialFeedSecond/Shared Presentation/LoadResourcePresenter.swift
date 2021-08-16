@@ -41,7 +41,7 @@ public final class LoadResourcePresenter<Resource, View: ResourceView> {
         loadingView.display(ResourceLoadingViewModel(isLoading: true))
     }
     
-    public func didFinishLoadingResource(with resource: Resource) {
+    public func didFinishLoading(with resource: Resource) {
         resourceView.display(mapper(resource))
         loadingView.display(ResourceLoadingViewModel(isLoading: false))
     }
