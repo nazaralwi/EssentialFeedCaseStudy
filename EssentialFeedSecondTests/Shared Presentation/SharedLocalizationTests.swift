@@ -19,6 +19,4 @@ class SharedLocalizationTests: XCTestCase {
     private class DummyView: ResourceView {
         func display(_ viewModel: Any) {}
     }
-    
-    // MARK: - Helpers
 }
