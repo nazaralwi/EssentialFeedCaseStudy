@@ -8,17 +8,8 @@
 
 import UIKit
 
-class ImageCommentCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-    }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
+public final class ImageCommentCell: UITableViewCell {
+    @IBOutlet private(set) public var messageLabel: UILabel!
+    @IBOutlet private(set) public var usernameLabel: UILabel!
+    @IBOutlet private(set) public var dateLabel: UILabel!
 }
