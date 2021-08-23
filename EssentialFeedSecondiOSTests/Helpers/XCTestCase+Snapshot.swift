@@ -28,8 +28,8 @@ extension XCTestCase {
     }
 
     func record(snapshot: UIImage, named name: String, file: StaticString = #filePath, line: UInt = #line) {
-        let snapshotURL = makeSnapshotURL(named: name)
-        let snapshotData = makeSnapshotData(for: snapshot)
+        let snapshotURL = makeSnapshotURL(named: name, file: file)
+        let snapshotData = makeSnapshotData(for: snapshot, file: file, line: line)
         
         do {
             try FileManager.default.createDirectory(
