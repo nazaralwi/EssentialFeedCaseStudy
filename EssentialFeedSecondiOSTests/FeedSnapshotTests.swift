@@ -107,7 +107,7 @@ private extension FeedViewController {
 }
 
 private class ImageStub: FeedImageCellControllerDelegate {
-    let viewModel: FeedImageViewModel<UIImage>
+    let viewModel: FeedImageViewModel
     let image: UIImage?
     weak var controller: FeedImageCellController?
     
