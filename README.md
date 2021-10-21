@@ -180,7 +180,7 @@ Given the customer doesn't have connectivity
 
 ![Feed Loading Feature](feed_initial_architecture.png)
 
-## Initial Architecture
+## Current Architecture
 
 ![Feed Loading Feature](feed_current_architecture.png)
 
