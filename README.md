@@ -176,9 +176,13 @@ Given the customer doesn't have connectivity
 
 ![Feed Loading Feature](feed_flowchart.png)
 
-## Architecture
+## Initial Architecture
 
-![Feed Loading Feature](feed_architecture.png)
+![Feed Loading Feature](feed_initial_architecture.png)
+
+## Initial Architecture
+
+![Feed Loading Feature](feed_current_architecture.png)
 
 ## Model Specs
 
