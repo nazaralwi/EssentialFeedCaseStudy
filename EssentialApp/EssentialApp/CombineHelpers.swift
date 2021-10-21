@@ -7,7 +7,7 @@
 
 import Combine
 import Foundation
-import EssentialFeedSecond
+import EssentialFeed
 
 public extension HTTPClient {
     typealias Publisher = AnyPublisher<(Data, HTTPURLResponse), Error>

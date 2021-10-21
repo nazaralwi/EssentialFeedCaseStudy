@@ -9,8 +9,8 @@ import XCTest
 import UIKit
 import Combine
 import EssentialApp
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 
 class CommentsUIIntegrationTests: XCTestCase {
     func test_commentsView_hasTitle() {

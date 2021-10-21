@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import EssentialFeedSecondiOS
+import EssentialFeediOS
 @testable import EssentialApp
 
 class SceneDelegateTests: XCTestCase {

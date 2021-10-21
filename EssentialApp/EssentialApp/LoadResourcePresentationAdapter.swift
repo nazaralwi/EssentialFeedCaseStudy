@@ -1,14 +1,14 @@
 //
 //  FeedLoaderPresentationAdapter.swift
-//  EssentialFeedSecondiOS
+//  EssentialFeediOS
 //
 //  Created by Nazar Alwi on 25/06/21.
 //  Copyright © 2021 Nazar Alwi. All rights reserved.
 //
 
 import Combine
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 
 final class LoadResourcePresentationAdapter<Resource, View: ResourceView> {
     private let loader: () -> AnyPublisher<Resource, Error>

@@ -5,8 +5,8 @@
 
 import UIKit
 import Combine
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 
 public final class FeedUIComposer {
     private init() {}

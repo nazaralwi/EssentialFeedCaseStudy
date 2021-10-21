@@ -1,14 +1,14 @@
 //
 //  FeedViewAdapter.swift
-//  EssentialFeedSecondiOS
+//  EssentialFeediOS
 //
 //  Created by Nazar Alwi on 25/06/21.
 //  Copyright © 2021 Nazar Alwi. All rights reserved.
 //
 
 import UIKit
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 
 final class FeedViewAdapter: ResourceView {
     private weak var controller: ListViewController?

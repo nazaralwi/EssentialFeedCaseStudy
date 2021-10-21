@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import EssentialFeedSecond
+import EssentialFeed
 
 public class FeedImageDataLoaderCacheDecorator: FeedImageDataLoader {
     private let decoratee: FeedImageDataLoader

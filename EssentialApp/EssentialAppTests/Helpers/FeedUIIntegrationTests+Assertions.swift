@@ -4,8 +4,8 @@
 //
 
 import XCTest
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 
 extension FeedUIIntegrationTests {
     func assertThat(_ sut: ListViewController, isRendering feed: [FeedImage], file: StaticString = #file, line: UInt = #line) {

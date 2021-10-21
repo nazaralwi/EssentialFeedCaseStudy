@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import EssentialFeedSecond
+import EssentialFeed
 
 class InMemoryFeedStore {
     private(set) var feedCache: CachedFeed?

@@ -6,8 +6,8 @@
 //
 
 import XCTest
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 @testable import EssentialApp
 
 class FeedAcceptanceTests: XCTestCase {

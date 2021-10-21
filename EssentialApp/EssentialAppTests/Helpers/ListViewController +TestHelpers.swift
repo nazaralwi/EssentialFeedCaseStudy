@@ -4,7 +4,7 @@
 //
 
 import UIKit
-import EssentialFeedSecondiOS
+import EssentialFeediOS
 
 extension ListViewController {
     public override func loadViewIfNeeded() {

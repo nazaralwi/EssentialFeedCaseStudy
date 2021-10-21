@@ -1,13 +1,13 @@
 //
 //  MainQueueDispatchDecorator.swift
-//  EssentialFeedSecondiOS
+//  EssentialFeediOS
 //
 //  Created by Nazar Alwi on 25/06/21.
 //  Copyright © 2021 Nazar Alwi. All rights reserved.
 //
 
 import UIKit
-import EssentialFeedSecond
+import EssentialFeed
 
 final class MainQueueDispatchDecorator<T> {
     private let decoratee: T

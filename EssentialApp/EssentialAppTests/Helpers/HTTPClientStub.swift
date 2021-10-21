@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import EssentialFeedSecond
+import EssentialFeed
 
 class HTTPClientStub: HTTPClient {
     private class Task: HTTPClientTask {

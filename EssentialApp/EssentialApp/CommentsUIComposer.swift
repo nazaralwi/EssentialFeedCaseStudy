@@ -7,8 +7,8 @@
 
 import UIKit
 import Combine
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 
 public final class CommentsUIComposer {
     private init() {}

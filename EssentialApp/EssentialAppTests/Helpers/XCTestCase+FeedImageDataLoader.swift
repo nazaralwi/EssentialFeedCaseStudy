@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import EssentialFeedSecond
+import EssentialFeed
 
 protocol FeedImageDataLoaderTestCase: XCTestCase {}
 

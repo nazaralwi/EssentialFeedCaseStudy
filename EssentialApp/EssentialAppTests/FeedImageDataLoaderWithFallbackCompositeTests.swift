@@ -6,7 +6,7 @@
 //
 
 import XCTest
-import EssentialFeedSecond
+import EssentialFeed
 import EssentialApp
 
 class FeedImageDataLoaderWithFallbackCompositeTests: XCTestCase, FeedImageDataLoaderTestCase {

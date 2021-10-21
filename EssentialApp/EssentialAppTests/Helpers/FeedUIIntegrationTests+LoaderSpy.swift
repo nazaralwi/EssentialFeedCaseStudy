@@ -5,8 +5,8 @@
 
 import Foundation
 import Combine
-import EssentialFeedSecond
-import EssentialFeedSecondiOS
+import EssentialFeed
+import EssentialFeediOS
 
 extension FeedUIIntegrationTests {
     class LoaderSpy: FeedImageDataLoader {
