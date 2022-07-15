@@ -71,7 +71,7 @@ class LoadResourcePresenterTests: XCTestCase {
     
     private func makeSUT(
         mapper: @escaping SUT.Mapper = { _ in "any" },
-        file: StaticString = #filePath,
+        file: StaticString = #file,
         line: UInt = #line
     ) -> (sut: SUT, view: ViewSpy) {
         let view = ViewSpy()
